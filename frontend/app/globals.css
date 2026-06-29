@@ -1,0 +1,43 @@
+/* Tailwind v4 base import */
+@import "tailwindcss";
+
+/* Your design tokens (v4 @theme) */
+@theme {
+  /* Brand palette */
+  --color-brand-50:  #eef2ff;
+  --color-brand-100: #e0e7ff;
+  --color-brand-200: #c7d2fe;
+  --color-brand-300: #a5b4fc;
+  --color-brand-400: #818cf8;
+  --color-brand-500: #6366f1;
+  --color-brand-600: #4f46e5;
+  --color-brand-700: #4338ca;
+  --color-brand-800: #3730a3;
+  --color-brand-900: #312e81;
+
+  /* Soft card shadow */
+  --shadow-soft: 0 8px 30px rgba(0,0,0,0.12);
+}
+
+/* App base colors */
+:root {
+  --bg: #0b1020;
+  --fg: #e7e9ee;
+}
+
+html, body {
+  background: var(--bg);
+  color: var(--fg);
+}
+
+/* Reusable utilities */
+.container { @apply max-w-6xl mx-auto px-4; }
+.card { @apply bg-white/5 rounded-2xl shadow-[var(--shadow-soft)] p-6 border border-white/10; }
+.btn { @apply inline-flex items-center gap-2 px-4 py-2 rounded-xl border border-white/20 hover:bg-white/10 transition; }
+/* Use your brand color tokens */
+.btn-primary { @apply bg-brand-600 hover:bg-brand-500 text-white border-transparent; }
+.muted { @apply text-sm text-white/70; }
+
+input, select, textarea {
+  @apply w-full bg-white/10 border border-white/20 rounded-xl p-2 outline-none;
+}
