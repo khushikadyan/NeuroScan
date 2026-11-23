@@ -1,22 +1,22 @@
-# 🧠 NeuroScan — Brain Tumor Detection System
+#  NeuroScan — Brain Tumor Detection System
 
 A production-grade medical imaging platform that uses deep learning (ResNet50) to detect brain tumors from MRI scans. Designed for clinical workflows with doctor authentication, patient management, AI-powered inference, Grad-CAM heatmap visualization, and automated PDF report generation.
 
 ---
 
-## ✨ Features
+##  Features
 
-- 🔐 **Doctor Authentication** — JWT-based login & registration with PBKDF2 password hashing
-- 🧑‍⚕️ **Patient Management** — Full CRUD for patient records with Medical Record Numbers (MRN)
-- 🤖 **AI Inference** — ResNet50 model trained to 99.33% accuracy on brain MRI classification (tumor / no tumor)
-- 🌡️ **Grad-CAM Heatmaps** — Visual explanation of model predictions overlaid on MRI scans
-- 📄 **PDF Report Generation** — Professional single-page reports with patient info, prediction, probability, and heatmap
-- 📊 **Dashboard** — Live stats: total patients, reports generated, and today's scans
-- 📁 **Report History** — Paginated, filterable report listing with direct PDF download
+-  **Doctor Authentication** — JWT-based login & registration with PBKDF2 password hashing
+-  **Patient Management** — Full CRUD for patient records with Medical Record Numbers (MRN)
+-  **AI Inference** — ResNet50 model trained to 99.33% accuracy on brain MRI classification (tumor / no tumor)
+-  **Grad-CAM Heatmaps** — Visual explanation of model predictions overlaid on MRI scans
+-  **PDF Report Generation** — Professional single-page reports with patient info, prediction, probability, and heatmap
+-  **Dashboard** — Live stats: total patients, reports generated, and today's scans
+-  **Report History** — Paginated, filterable report listing with direct PDF download
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 | Layer | Technology |
 |---|---|
@@ -29,7 +29,7 @@ A production-grade medical imaging platform that uses deep learning (ResNet50) t
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 medvision/
@@ -64,7 +64,7 @@ medvision/
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -159,7 +159,7 @@ Interactive API docs available at [http://localhost:8000/docs](http://localhost:
 
 ---
 
-## 🤖 Model Performance
+## Model Performance
 
 The ResNet50 model was fine-tuned on a brain MRI dataset (1,800 training / 600 validation / 600 test images).
 
@@ -176,6 +176,4 @@ The ResNet50 model was fine-tuned on a brain MRI dataset (1,800 training / 600 v
 
 ---
 
-## 📜 License
 
-This project is for educational and research use only.
