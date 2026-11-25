@@ -3,6 +3,7 @@
 A production-grade medical imaging platform that uses deep learning (ResNet50) to detect brain tumors from MRI scans. Designed for clinical workflows with doctor authentication, patient management, AI-powered inference, Grad-CAM heatmap visualization, and automated PDF report generation.
 
 ---
+<img width="827" height="443" alt="image" src="https://github.com/user-attachments/assets/54ee3fff-65af-4c62-a715-1a6d27890353" />
 
 ##  Features
 
